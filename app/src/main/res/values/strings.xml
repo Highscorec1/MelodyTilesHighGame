@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Melody Tiles High Night</string>
+
+    <string name="title">High Night Melody Tiles</string>
+    <string name="Level">Level</string>
+    <string name="moves">Moves</string>
+    <string name="time">Time</string>
+    <string name="Lives">Lives</string>
+    <string name="options">Options</string>
+    <string name="instructions">Press the Tiles in the correct order to find the right melody.</string>
+    <string name="credits">Game created by HighScoreC. </string>
+    <string name="premium">Tap here to remove ads, get more levels and unlimited lives</string>
+    <string name="premiumTitle">Get Premium Access Forever</string>
+    <string name="premiumBenefitl">No more Ads</string>
+    <string name="premiumBenefit2">Unlimited lives</string>
+    <string name="premiumBenefit3">Keep your reached level</string>
+    <string name="pay">PAY ONLY 1$</string>
+
+</resources>
