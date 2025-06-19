@@ -1,10 +1,20 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- Capa de fondo (color sólido) -->
-    <item>
+
+    <!-- Capa externa: borde difuso o glow -->
+    <item android:left="0dp" android:right="0dp" android:top="0dp" android:bottom="0dp">
         <shape android:shape="rectangle">
-            <solid android:color="#00C6FF" /> <!-- Azul brillante (cambiable) -->
-            <corners android:radius="20dp" />
-            <stroke android:width="3dp" android:color="#000000" /> <!-- Borde negro -->
+            <corners android:radius="22dp" />
+            <solid android:color="#0039FF14" /> <!-- Verde neón translúcido -->
         </shape>
     </item>
+
+    <!-- Capa principal: el botón en sí -->
+    <item android:left="2dp" android:right="2dp" android:top="2dp" android:bottom="2dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#8000FF" /> <!-- Fondo azul cian -->
+            <stroke android:width="12dp" android:color="#00F0FF" /> <!-- 🌟 Borde verde neón -->
+            <corners android:radius="20dp" />
+        </shape>
+    </item>
+
 </layer-list>

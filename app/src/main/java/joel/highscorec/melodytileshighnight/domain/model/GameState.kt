@@ -4,7 +4,7 @@ data class GameState(
     val correctSequence: List<String>,
     val userSequence: List<String>,
     val lives: Int,
-    val moveCount: Int = 0,
+    val ScoreCount: Int = 0,
     val level: Int = 1,
     val isWon: Boolean = false,
     val isGameOver: Boolean = false

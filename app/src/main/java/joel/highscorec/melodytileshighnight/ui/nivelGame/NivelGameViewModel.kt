@@ -3,64 +3,98 @@ package joel.highscorec.melodytileshighnight.ui.nivelGame
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import androidx.lifecycle.viewModelScope
+import joel.highscorec.melodytileshighnight.data.local.ProgressManager
 import joel.highscorec.melodytileshighnight.data.repository.LevelRepositoryImpl
 import joel.highscorec.melodytileshighnight.domain.model.GameState
 import joel.highscorec.melodytileshighnight.domain.usecase.CheckSequenceUseCase
 import joel.highscorec.melodytileshighnight.domain.usecase.GetLevelSequenceUseCase
 import joel.highscorec.melodytileshighnight.domain.usecase.RestartGameUseCase
-import kotlinx.coroutines.launch
 
 class NivelGameViewModel : ViewModel() {
 
+    // ─────────────────────────────────────────────────────────────
+    // Dependencies (In a real case, injected via constructor ideally)
+    // ─────────────────────────────────────────────────────────────
+    private val levelRepository = LevelRepositoryImpl()
+    private val getLevelSequenceUseCase = GetLevelSequenceUseCase(levelRepository)
     private val checkSequenceUseCase = CheckSequenceUseCase()
     private val restartGameUseCase = RestartGameUseCase()
 
-    private val levelRepository = LevelRepositoryImpl()
-    private val getLevelSequenceUseCase = GetLevelSequenceUseCase(levelRepository)
-
+    // ─────────────────────────────────────────────────────────────
+    // Game State LiveData
+    // ─────────────────────────────────────────────────────────────
     private val _gameState = MutableLiveData<GameState>()
     val gameState: LiveData<GameState> = _gameState
 
-    init {
-        val level1 = 1
-        val sequence = getLevelSequenceUseCase.invoke(level1) ?: emptyList()
+    // ─────────────────────────────────────────────────────────────
+    // Internal state
+    // ─────────────────────────────────────────────────────────────
+    private var currentSongId: String = ""
+    private var levelSequences: Map<Int, List<String>> = emptyMap()
+    var sequenceStarted: Boolean = false
 
-        _gameState.value = restartGameUseCase.invoke(
-            correctSequence = sequence,
+    // ─────────────────────────────────────────────────────────────
+    // Public API
+    // ─────────────────────────────────────────────────────────────
+
+    fun initWithSong(songId: String) {
+        currentSongId = songId
+        levelSequences = getLevelSequenceUseCase.getAllLevelsForSong(songId)
+
+        val initialLevel = 1
+        val initialSequence = levelSequences[initialLevel] ?: emptyList()
+
+        _gameState.value = restartGameUseCase(
+            correctSequence = initialSequence,
             initialLives = 20,
-            level = level1
+            level = initialLevel
         )
     }
 
     fun onCellClicked(cellTag: String) {
         val current = _gameState.value ?: return
-        val updated = checkSequenceUseCase.invoke(current, cellTag)
+        var updated = checkSequenceUseCase(current, cellTag)
+
+        // Protege contra valores negativos de vidas
+        if (updated.lives < 0) updated = updated.copy(lives = 0)
 
         if (updated.isWon) {
-            val nextLevel = current.level + 1
-            val nextSequence = getLevelSequenceUseCase.invoke(nextLevel)
+            // Guarda progreso solo al ganar
+            ProgressManager.saveProgress(currentSongId, current.level, updated.ScoreCount)
 
-            if (nextSequence != null) {
-                _gameState.value = restartGameUseCase.invoke(
+            val nextLevel = current.level + 1
+            val nextSequence = levelSequences[nextLevel]
+
+            _gameState.value = if (nextSequence != null) {
+                sequenceStarted = false
+                restartGameUseCase(
                     correctSequence = nextSequence,
                     initialLives = updated.lives,
-                    level = nextLevel
+                    level = nextLevel,
+                    score = updated.ScoreCount
                 )
             } else {
-                _gameState.value = updated.copy(isWon = true)
+                updated.copy(isWon = true)
             }
+
         } else {
             _gameState.value = updated
         }
     }
 
+    fun triggerGameOver() {
+        _gameState.value = _gameState.value?.copy(isGameOver = true)
+    }
+
     fun resetGame() {
-        val sequence = getLevelSequenceUseCase.invoke(1) ?: emptyList()
-        _gameState.value = restartGameUseCase.invoke(
-            correctSequence = sequence,
-            initialLives = 20,
-            level = 1
+        val firstSequence = levelSequences[1] ?: emptyList()
+        sequenceStarted = false
+
+        _gameState.value = restartGameUseCase(
+            correctSequence = firstSequence,
+            initialLives = 5,
+            level = 1,
+            score = 0
         )
     }
 }

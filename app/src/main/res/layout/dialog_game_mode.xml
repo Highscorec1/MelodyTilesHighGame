@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="@drawable/bg_black_rounded"
+        android:elevation="6dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tvGameModeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selecciona un modo de juego"
+            android:textSize="18sp"
+            android:textColor="@color/app_color_Light"
+            android:fontFamily="@font/orbitron_black"
+            android:layout_marginBottom="18dp"
+            android:shadowColor="#FF00F7"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="8"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btnModoContinuo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🎵 Modo Continuo"
+            android:textAllCaps="false"
+            android:textColor="@color/app_color_Light"
+            android:fontFamily="@font/orbitron_medium"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnModoNiveles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🎯 Modo Puzzle"
+            android:textAllCaps="false"
+            android:textColor="@color/app_color_Light"
+            android:fontFamily="@font/orbitron_medium"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnModoEditor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🛠️ Editor de Nivel"
+            android:textAllCaps="false"
+            android:textColor="@color/app_color_Light"
+            android:fontFamily="@font/orbitron_medium"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnCerrarModo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancelar"
+            android:textAllCaps="false"
+            android:textColor="@color/app_color_Light"
+            android:fontFamily="@font/orbitron_black"
+            android:layout_gravity="center" />
+    </LinearLayout>
+</LinearLayout>

@@ -11,8 +11,8 @@ android {
         applicationId = "joel.highscorec.melodytileshighnight"
         minSdk = 24
         targetSdk = 35
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 2
+        versionName = "2.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -38,8 +38,27 @@ android {
 dependencies {
 
 
+    implementation ("com.google.android.material:material:1.11.0") // Usa la última versión
+
+
     implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7")
     implementation ("androidx.lifecycle:lifecycle-livedata-ktx:2.8.7")
+
+    //json
+    implementation(libs.gson)
+
+
+    //publi
+    implementation ("com.google.android.gms:play-services-ads:24.2.0")
+
+
+    // Mockito para tests unitarios
+    testImplementation("org.mockito:mockito-core:5.5.0")
+
+
+    // Opcional si haces tests instrumentados también:
+    androidTestImplementation ("org.mockito:mockito-android:5.5.0")
+
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)

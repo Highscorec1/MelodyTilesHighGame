@@ -4,7 +4,7 @@
     android:id="@+id/rlScreen"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/app_color_dark"
+    android:background="@drawable/bottom_left_model"
     tools:context=".ui.nivelGame.nivelGameActivity">
 
     <LinearLayout
@@ -12,18 +12,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/tvPremium"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/contrast_data"
-            android:paddingTop="8dp"
-            android:paddingBottom="8dp"
-            android:text="@string/premium"
-            android:textAlignment="center"
-            android:textColor="@color/app_color_Light" />
 
     </LinearLayout>
 
@@ -38,46 +29,57 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="22dp"
+                android:fontFamily="@font/orbitron_black"
+                android:shadowColor="#FD9EFC"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="12"
                 android:text="@string/title"
                 android:textAlignment="center"
-                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-                android:textColor="@color/white"
+                android:textColor="@color/pinkneon"
                 android:textSize="26sp" />
+
 
             <TextView
                 android:id="@+id/tvIevelTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="6dp"
                 android:layout_marginTop="12dp"
-                android:layout_marginEnd="6dp"
                 android:background="@drawable/bg_title_top"
+                android:fontFamily="@font/orbitron_black"
                 android:paddingTop="10dp"
+                android:shadowColor="#FD9EFC"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="10"
                 android:text="@string/Level"
                 android:textAlignment="center"
-                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-                android:textColor="@color/app_color_Light"
-                android:textSize="18sp" />
+                android:textColor="@color/pinkneon"
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/tvLevelNumber"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="6dp"
-                android:layout_marginEnd="6dp"
                 android:background="@drawable/bg_title_bottom"
+                android:fontFamily="@font/orbitron_black"
                 android:paddingBottom="10dp"
+                android:shadowColor="#FD9EFC"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="10"
                 android:text="1"
                 android:textAlignment="center"
-                android:textColor="@color/app_color_Light"
-                android:textSize="18sp" />
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -97,24 +99,34 @@
 
 
                     <TextView
-                        android:id="@+id/tvHovesTitle"
+                        android:id="@+id/tvScoreTitle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:background="@drawable/bg_data_top"
+                        android:fontFamily="@font/orbitron_medium"
                         android:paddingTop="10dp"
                         android:paddingBottom="10dp"
-                        android:text="@string/moves"
+                        android:shadowColor="#FF00F7"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="8"
+                        android:text="@string/score"
                         android:textAlignment="center"
                         android:textColor="@color/app_color_Light"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
 
                     <TextView
-                        android:id="@+id/tvMovesData"
+                        android:id="@+id/tvScoreData"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/bg_data_bottom"
+                        android:fontFamily="@font/orbitron_medium"
                         android:paddingBottom="10dp"
+                        android:shadowColor="#FFFFFF"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="8"
                         android:text="0"
                         android:textAlignment="center"
                         android:textColor="@color/app_color_Light"
@@ -131,24 +143,34 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/tvTineTitle"
+                        android:id="@+id/tvTimeTitle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:background="@drawable/bg_data_top"
+                        android:fontFamily="@font/orbitron_medium"
                         android:paddingTop="10dp"
                         android:paddingBottom="10dp"
+                        android:shadowColor="#FF00F7"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="8"
                         android:text="@string/time"
                         android:textAlignment="center"
                         android:textColor="@color/app_color_Light"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
 
                     <TextView
-                        android:id="@+id/tvTineData"
+                        android:id="@+id/tvTimeData"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/bg_data_bottom"
+                        android:fontFamily="@font/orbitron_medium"
                         android:paddingBottom="10dp"
+                        android:shadowColor="#FFFFFF"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="8"
                         android:text="00:00"
                         android:textAlignment="center"
                         android:textColor="@color/app_color_Light"
@@ -170,23 +192,35 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:background="@drawable/bg_data_top"
+                        android:fontFamily="@font/orbitron_medium"
                         android:paddingTop="10dp"
                         android:paddingBottom="10dp"
+                        android:shadowColor="#FF00F7"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="8"
                         android:text="@string/Lives"
                         android:textAlignment="center"
                         android:textColor="@color/app_color_Light"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/tvLiveData"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/bg_data_bottom"
+                        android:fontFamily="@font/orbitron_medium"
                         android:paddingBottom="10dp"
+                        android:shadowColor="#39FF14"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="8"
                         android:text="0"
                         android:textAlignment="center"
                         android:textColor="@color/app_color_Light"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"
+
+                        />
 
                 </LinearLayout>
 
@@ -199,55 +233,51 @@
                     android:layout_weight="1"
                     android:orientation="vertical">
 
-
                     <TextView
                         android:id="@+id/tvOptionsTitle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:background="@drawable/bg_data_top"
+                        android:fontFamily="@font/orbitron_medium"
                         android:paddingTop="10dp"
                         android:paddingBottom="10dp"
-                        android:text="@string/options"
+                        android:shadowColor="#FF00F7"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="8"
+                        android:text="@string/credits_song"
                         android:textAlignment="center"
                         android:textColor="@color/app_color_Light"
-                        android:textSize="18sp" />
-
+                        android:textSize="16sp" />
 
                     <View
-                        android:id="@+id/vNewBonus"
                         android:layout_width="match_parent"
-                        android:layout_height="8dp"
-                        android:background="@color/contrast_data"
-                        android:translationY="-8dp" />
+                        android:layout_height="4dp"
+                        android:background="@color/contrast_data" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/bg_data_bottom"
                         android:gravity="center"
-                        android:orientation="horizontal"
-                        android:translationY="-8dp">
-
-                        <TextView
-                            android:id="@+id/tvOptionsData"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/bg_data_bottom"
-                            android:paddingBottom="10dp"
-                            android:text="0"
-                            android:textAlignment="center"
-                            android:textColor="@color/app_color_Light"
-                            android:textSize="18sp" />
+                        android:orientation="vertical">
 
                         <TextView
                             android:id="@+id/tvBonusData"
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:paddingBottom="10dp"
-                            android:text=""
+                            android:background="?android:selectableItemBackground"
+                            android:fontFamily="@font/orbitron_medium"
+                            android:padding="4dp"
+                            android:shadowColor="#FFD700"
+                            android:shadowDx="0"
+                            android:shadowDy="0"
+                            android:shadowRadius="8"
+                            android:text="▶"
+                            android:textAlignment="center"
                             android:textColor="@color/app_color_Light"
-                            android:textSize="18sp" />
+                            android:textSize="16sp" />
 
 
                     </LinearLayout>
@@ -281,7 +311,6 @@
                             android:layout_column="0"
                             android:layout_weight="1"
                             android:background="@drawable/bottom_first_model"
-                            android:onClick="checkCellClicked"
                             android:tag="c02" />
 
                         <ImageView
@@ -291,7 +320,6 @@
                             android:layout_column="1"
                             android:layout_weight="1"
                             android:background="@drawable/bottom_first_model"
-                            android:onClick="checkCellClicked"
                             android:tag="c12" />
 
                         <ImageView
@@ -301,7 +329,6 @@
                             android:layout_column="2"
                             android:layout_weight="1"
                             android:background="@drawable/bottom_first_model"
-                            android:onClick="checkCellClicked"
                             android:tag="c22" />
 
                     </TableRow>
@@ -315,7 +342,6 @@
                             android:layout_column="0"
                             android:layout_weight="1"
                             android:background="@drawable/bottom_first_model"
-                            android:onClick="checkCellClicked"
                             android:tag="c01" />
 
                         <ImageView
@@ -325,7 +351,6 @@
                             android:layout_column="1"
                             android:layout_weight="1"
                             android:background="@drawable/bottom_first_model"
-                            android:onClick="checkCellClicked"
                             android:tag="c11" />
 
                         <ImageView
@@ -335,7 +360,6 @@
                             android:layout_column="2"
                             android:layout_weight="1"
                             android:background="@drawable/bottom_first_model"
-                            android:onClick="checkCellClicked"
                             android:tag="c21" />
 
                     </TableRow>
@@ -349,7 +373,6 @@
                             android:layout_column="0"
                             android:layout_weight="1"
                             android:background="@drawable/bottom_first_model"
-                            android:onClick="checkCellClicked"
                             android:tag="c00" />
 
                         <ImageView
@@ -359,7 +382,6 @@
                             android:layout_column="1"
                             android:layout_weight="1"
                             android:background="@drawable/bottom_first_model"
-                            android:onClick="checkCellClicked"
                             android:tag="c10" />
 
                         <ImageView
@@ -369,7 +391,6 @@
                             android:layout_column="2"
                             android:layout_weight="1"
                             android:background="@drawable/bottom_first_model"
-                            android:onClick="checkCellClicked"
                             android:tag="c20" />
 
                     </TableRow>
@@ -409,14 +430,135 @@
 
     </ScrollView>
 
+
+    <View
+        android:id="@+id/viewTouchBlocker"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="gone" />
+
     <LinearLayout
         android:id="@+id/lyAdsBanner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:visibility="visible"
+        >
+
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyEndGame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:background="#CC000000"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:visibility="gone">
+
+
+        <TextView
+            android:id="@+id/tvEndGameEmoji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:shadowColor="#FFFFFF"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="8"
+            android:text="🎉"
+            android:textSize="64sp" />
+
+
+        <TextView
+            android:id="@+id/tvEndGameMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="@font/orbitron_black"
+            android:shadowColor="#39FF14"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="8"
+            android:text="@string/you_win"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+
+        <TextView
+            android:id="@+id/tvFinalScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="@font/orbitron_medium"
+            android:shadowColor="#FFFFFF"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="8"
+            android:text="@string/score_0"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/btnShareScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:shadowColor="#39FF14"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="8"
+            android:text="@string/share_score"
+            android:fontFamily="@font/orbitron_black"
+            android:textColor="@color/app_color_Light"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnRetryGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:shadowColor="#39FF14"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="8"
+            android:text="@string/try_again"
+            android:fontFamily="@font/orbitron_black"
+            android:textColor="@color/app_color_Light"
+            android:visibility="gone" />
+
+
+        <Button
+            android:id="@+id/btnReturnMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/orbitron_black"
+            android:shadowColor="#FFFFFF"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="8"
+            android:text="@string/return_to_menu"
+            android:textColor="@color/app_color_Light"
+            android:textSize="16sp" />
 
 
     </LinearLayout>
+
+    <View
+        android:id="@+id/viewLevelUpFlash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#5600FF00"
+        android:visibility="gone" />
+
 
 </RelativeLayout>

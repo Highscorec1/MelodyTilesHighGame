@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="18dp"
+    android:layout_marginBottom="12dp"
+    card_view:cardCornerRadius="16dp"
+    card_view:cardElevation="6dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_item_musical"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+        <!-- Imagen de la canción -->
+
+        <!-- Textos -->
+
+        <!-- Reemplaza este ImageView -->
+        <!-- <ImageView ... /> -->
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ivSongImage"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:padding="4dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_check"
+            app:shapeAppearanceOverlay="@style/CircleImage" />
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvSongName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/orbitron_black"
+                android:letterSpacing="0.03"
+                android:shadowColor="#00FFFF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="8"
+                android:text="Song Name"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+
+                />
+
+
+            <TextView
+                android:id="@+id/tvProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:fontFamily="@font/orbitron_medium"
+                android:text="Level: 0 / 3 ||| Score: 1200"
+                android:textColor="#DDDDDD"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+
+        <!-- Check final -->
+        <TextView
+            android:id="@+id/tvTrophy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="🏆"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

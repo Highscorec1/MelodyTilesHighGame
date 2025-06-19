@@ -1,19 +1,26 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Fondo oscuro elegante -->
     <item android:id="@android:id/background">
         <shape>
-            <corners android:radius="20dp"/>
-            <solid android:color="#222222"/>
+            <solid android:color="#141414" />
+            <corners android:radius="20dp" />
         </shape>
     </item>
+
     <item android:id="@android:id/progress">
         <clip>
             <shape>
-                <corners android:radius="20dp"/>
                 <gradient
-                    android:startColor="@color/deep_purple"
-                    android:endColor="#F09819"
-                    android:angle="0"/>
+
+
+                    android:endColor="#8000FF"
+                android:centerColor="#FF47B8"
+                android:startColor="#FF0055"
+                android:angle="0"/>
+                <corners android:radius="20dp" />
             </shape>
         </clip>
     </item>
+
 </layer-list>

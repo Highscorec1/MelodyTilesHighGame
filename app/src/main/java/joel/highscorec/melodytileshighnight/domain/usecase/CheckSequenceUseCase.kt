@@ -4,21 +4,16 @@ import joel.highscorec.melodytileshighnight.domain.model.GameState
 
 class CheckSequenceUseCase {
 
-    fun invoke(
+    operator fun invoke(
         currentState: GameState,
         clickedCellId: String
     ): GameState {
-
-
-
         val updatedUserSequence = currentState.userSequence + clickedCellId
 
-        // Verificar si la secuencia hasta ahora es correcta
         val isCorrectSoFar = updatedUserSequence.withIndex().all {
             it.value == currentState.correctSequence.getOrNull(it.index)
         }
 
-        // Si ya se equivocó
         if (!isCorrectSoFar) {
             val newLives = currentState.lives - 1
             return currentState.copy(
@@ -28,15 +23,19 @@ class CheckSequenceUseCase {
             )
         }
 
-        // Si completó toda la secuencia correctamente
-        if (updatedUserSequence.size == currentState.correctSequence.size) {
-            return currentState.copy(
+        val updatedScore = currentState.ScoreCount + 1
+
+        return if (updatedUserSequence.size == currentState.correctSequence.size) {
+            currentState.copy(
                 userSequence = emptyList(),
-                isWon = true
+                isWon = true,
+                ScoreCount = updatedScore
+            )
+        } else {
+            currentState.copy(
+                userSequence = updatedUserSequence,
+                ScoreCount = updatedScore
             )
         }
-
-        // Si aún va bien, pero no ha terminado
-        return currentState.copy(userSequence = updatedUserSequence)
     }
 }

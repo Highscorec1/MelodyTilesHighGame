@@ -1,0 +1,26 @@
+[
+{
+    "songId": "breakingFree_theme",
+    "animationDurationMs": 1000,
+    "notes": [
+        { "tag": "c02", "timestampMs": 3500, "durationMs": 8000 },
+
+        { "tag": "c01", "timestampMs": 12460 },
+        { "tag": "c22", "timestampMs": 13100 },
+        { "tag": "c21", "timestampMs": 13760 },
+        { "tag": "c20", "timestampMs": 14240 },
+        { "tag": "c00", "timestampMs": 15480 },
+        { "tag": "c10", "timestampMs": 16140 },
+        { "tag": "c20", "timestampMs": 16910 },
+        { "tag": "c21", "timestampMs": 17310 },
+        { "tag": "c22", "timestampMs": 17640 },
+        { "tag": "c02", "timestampMs": 18620 },
+        { "tag": "c01", "timestampMs": 19180 },
+        { "tag": "c00", "timestampMs": 19810 },
+        { "tag": "c10", "timestampMs": 20200 },
+        { "tag": "c20", "timestampMs": 20700 },
+        { "tag": "c02", "timestampMs": 21700, "durationMs": 8000},
+        { "tag": "c01", "timestampMs": 30000 }
+    ]
+}
+]

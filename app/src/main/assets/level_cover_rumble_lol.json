@@ -1,0 +1,1940 @@
+[
+  {
+    "songId": "cover_rumble_lol",
+    "animationDurationMs": 100,
+    "notes": [
+      {
+        "tag": "c12",
+        "timestampMs": 947
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 1506
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 2281
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 2532
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 3208
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 3882
+      },
+      {
+        "tag": "c00",
+        "timestampMs": 4476
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 4784
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 5084
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 5392
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 5711
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 5960
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 6269
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 6577
+      },
+      {
+        "tag": "c01",
+        "timestampMs": 6844
+      },
+      {
+        "tag": "c00",
+        "timestampMs": 7118
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 7454
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 7895
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 8080
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 8288
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 8455
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 8621
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 8770
+      },
+      {
+        "tag": "c00",
+        "timestampMs": 8946
+      },
+      {
+        "tag": "c01",
+        "timestampMs": 9162
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 9387
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 9913
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 9915
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 11214
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 11215
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 12249
+      },
+      {
+        "tag": "c21",
+        "timestampMs": 12250
+      },
+      {
+        "tag": "c00",
+        "timestampMs": 13434
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 13435
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 13440
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 13448
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 14610
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 14625
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 14641
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 14641
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 17176
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 17711
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 17970
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 18262
+      },
+      {
+        "tag": "c21",
+        "timestampMs": 18513
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 18820
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 19128
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 19471
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 19779
+      },
+      {
+        "tag": "c01",
+        "timestampMs": 20063
+      },
+      {
+        "tag": "c00",
+        "timestampMs": 20415
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 20714
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 21014
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 21314
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 21631
+      },
+      {
+        "tag": "c21",
+        "timestampMs": 21915
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 22206
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 22490
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 22757
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 23058
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 23399
+      },
+      {
+        "tag": "c01",
+        "timestampMs": 23725
+      },
+      {
+        "tag": "c00",
+        "timestampMs": 23999
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 24266
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 24592
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 24850
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 25167
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 25441
+      },
+      {
+        "tag": "c21",
+        "timestampMs": 25793
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 26067
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 26409
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 26684
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 26993
+      },
+      {
+        "tag": "c00",
+        "timestampMs": 27310
+      },
+      {
+        "tag": "c01",
+        "timestampMs": 27618
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 27853
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 28169
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 28478
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 28728
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 29002
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 29010
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 29386
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 29653
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 29661
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 29978
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 30262
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 30269
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 30580
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 30879
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 30880
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 31195
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 31463
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 31470
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 31762
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 32054
+      },
+      {
+        "tag": "c21",
+        "timestampMs": 32055
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 32380
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 32638
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 32646
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 32954
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 33204
+      },
+      {
+        "tag": "c21",
+        "timestampMs": 33230
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 33537
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 33872
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 33880
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 34172
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 34472
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 34473
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 34748
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 35057
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 35058
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 35332
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 35665
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 35673
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 35999
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 36282
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 36289
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 36574
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 36850
+      },
+      {
+        "tag": "c21",
+        "timestampMs": 36851
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 37149
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 37474
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 37482
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 37724
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 38042
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 38043
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 38358
+      },
+      {
+        "tag": "c01",
+        "timestampMs": 38618
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 38619
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 38892
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 39219
+      },
+      {
+        "tag": "c21",
+        "timestampMs": 39235
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 39526
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 39852
+      },
+      {
+        "tag": "c01",
+        "timestampMs": 39859
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 40151
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 40477
+      },
+      {
+        "tag": "c21",
+        "timestampMs": 40485
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 40786
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 41053
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 41060
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 41402
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 41695
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 41702
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 42020
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 42320
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 42328
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 42580
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 42862
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 42870
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 43137
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 43455
+      },
+      {
+        "tag": "c21",
+        "timestampMs": 43470
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 43788
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 44063
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 44071
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 44379
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 44656
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 44663
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 44988
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 45264
+      },
+      {
+        "tag": "c01",
+        "timestampMs": 45272
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 45539
+      },
+      {
+        "tag": "c21",
+        "timestampMs": 45839
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 46064
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 46257
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 46524
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 46774
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 47073
+      },
+      {
+        "tag": "c00",
+        "timestampMs": 47317
+      },
+      {
+        "tag": "c01",
+        "timestampMs": 47466
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 47658
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 47825
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 47992
+      },
+      {
+        "tag": "c21",
+        "timestampMs": 48192
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 48550
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 48816
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 49092
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 49434
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 49716
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 50059
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 50359
+      },
+      {
+        "tag": "c21",
+        "timestampMs": 50676
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 50968
+      },
+      {
+        "tag": "c01",
+        "timestampMs": 51276
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 51628
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 51885
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 52179
+      },
+      {
+        "tag": "c01",
+        "timestampMs": 52419
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 52744
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 53069
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 53319
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 53695
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 53947
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 54270
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 54587
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 54895
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 55146
+      },
+      {
+        "tag": "c21",
+        "timestampMs": 55472
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 55712
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 56046
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 56447
+      },
+      {
+        "tag": "c21",
+        "timestampMs": 56723
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 56956
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 57256
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 57564
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 57856
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 58114
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 58373
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 58548
+      },
+      {
+        "tag": "c00",
+        "timestampMs": 58732
+      },
+      {
+        "tag": "c01",
+        "timestampMs": 58881
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 59049
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 59257
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 59632
+      },
+      {
+        "tag": "c21",
+        "timestampMs": 59974
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 60323
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 60574
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 60883
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 61050
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 61307
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 61499
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 61717
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 62042
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 62317
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 62660
+      },
+      {
+        "tag": "c00",
+        "timestampMs": 62801
+      },
+      {
+        "tag": "c01",
+        "timestampMs": 62918
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 63185
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 63343
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 63485
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 63710
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 63855
+      },
+      {
+        "tag": "c21",
+        "timestampMs": 63969
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 64203
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 64503
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 64762
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 65037
+      },
+      {
+        "tag": "c00",
+        "timestampMs": 65203
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 65596
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 66255
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 66389
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 66546
+      },
+      {
+        "tag": "c21",
+        "timestampMs": 66830
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 67489
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 67515
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 67516
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 68039
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 68040
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 68081
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 68624
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 68631
+      },
+      {
+        "tag": "c01",
+        "timestampMs": 68632
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 69224
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 69225
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 69257
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 69859
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 69865
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 69881
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 70408
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 70416
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 70417
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 71042
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 71043
+      },
+      {
+        "tag": "c01",
+        "timestampMs": 71049
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 71601
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 71601
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 71625
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 72228
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 72229
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 72243
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 72752
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 72760
+      },
+      {
+        "tag": "c01",
+        "timestampMs": 72761
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 73069
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 73076
+      },
+      {
+        "tag": "c00",
+        "timestampMs": 73135
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 74604
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 74604
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 74619
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 75096
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 75120
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 75279
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 75436
+      },
+      {
+        "tag": "c01",
+        "timestampMs": 75570
+      },
+      {
+        "tag": "c00",
+        "timestampMs": 76414
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 76947
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 77114
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 77247
+      },
+      {
+        "tag": "c21",
+        "timestampMs": 77447
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 77631
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 77747
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 77965
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 78080
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 78256
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 78356
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 78540
+      },
+      {
+        "tag": "c01",
+        "timestampMs": 78665
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 78849
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 78990
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 79158
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 79298
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 79457
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 79565
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 79784
+      },
+      {
+        "tag": "c21",
+        "timestampMs": 79924
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 80091
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 80158
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 80408
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 80574
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 80701
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 80875
+      },
+      {
+        "tag": "c01",
+        "timestampMs": 80991
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 81259
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 81417
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 81575
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 81733
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 81892
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 82076
+      },
+      {
+        "tag": "c21",
+        "timestampMs": 82167
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 82402
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 82578
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 82709
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 82951
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 83102
+      },
+      {
+        "tag": "c01",
+        "timestampMs": 83219
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 83409
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 83552
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 83719
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 83853
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 84085
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 84227
+      },
+      {
+        "tag": "c21",
+        "timestampMs": 84378
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 84553
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 84652
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 84919
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 85070
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 85186
+      },
+      {
+        "tag": "c01",
+        "timestampMs": 85387
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 85521
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 85687
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 85820
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 85953
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 86154
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 86395
+      },
+      {
+        "tag": "c21",
+        "timestampMs": 86680
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 86687
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 87290
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 87297
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 87304
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 87312
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 87848
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 87855
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 87863
+      },
+      {
+        "tag": "c00",
+        "timestampMs": 87880
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 88473
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 88481
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 88489
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 88490
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 89074
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 89074
+      },
+      {
+        "tag": "c00",
+        "timestampMs": 89090
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 89106
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 89667
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 89667
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 89668
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 89732
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 90259
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 90266
+      },
+      {
+        "tag": "c00",
+        "timestampMs": 90290
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 90299
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 90826
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 90842
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 90843
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 90866
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 91484
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 91492
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 91492
+      },
+      {
+        "tag": "c00",
+        "timestampMs": 91508
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 92085
+      },
+      {
+        "tag": "c00",
+        "timestampMs": 92092
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 92092
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 92685
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 92686
+      },
+      {
+        "tag": "c00",
+        "timestampMs": 92692
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 93253
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 93254
+      },
+      {
+        "tag": "c00",
+        "timestampMs": 93277
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 93870
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 93878
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 93885
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 93902
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 94462
+      },
+      {
+        "tag": "c00",
+        "timestampMs": 94469
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 94470
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 95063
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 95063
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 95070
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 95087
+      },
+      {
+        "tag": "c00",
+        "timestampMs": 95639
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 95647
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 95653
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 96222
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 96362
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 96505
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 96665
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 96814
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 96963
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 97131
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 97273
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 97456
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 97581
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 97765
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 97899
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 98082
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 98232
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 98390
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 98550
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 98725
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 98892
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 99032
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 99250
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 99391
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 99583
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 99734
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 99917
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 100083
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 100226
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 100393
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 100502
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 100701
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 100859
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 101018
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 101176
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 101335
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 101477
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 101636
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 101752
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 101945
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 102111
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 102261
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 102412
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 102561
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 102719
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 102887
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 103087
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 103262
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 103446
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 103554
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 103755
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 103879
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 104014
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 104124
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 104338
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 104756
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 105198
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 105824
+      },
+      {
+        "tag": "c21",
+        "timestampMs": 105932
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 106124
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 106199
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 106441
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 106608
+      },
+      {
+        "tag": "c01",
+        "timestampMs": 106716
+      },
+      {
+        "tag": "c00",
+        "timestampMs": 106900
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 107016
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 107234
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 107375
+      },
+      {
+        "tag": "c22",
+        "timestampMs": 107492
+      },
+      {
+        "tag": "c20",
+        "timestampMs": 107709
+      },
+      {
+        "tag": "c21",
+        "timestampMs": 107901
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 108268
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 108401
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 108518
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 108700
+      },
+      {
+        "tag": "c00",
+        "timestampMs": 108867
+      },
+      {
+        "tag": "c01",
+        "timestampMs": 108960
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 109252
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 109419
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 109500
+      },
+      {
+        "tag": "c02",
+        "timestampMs": 109685
+      },
+      {
+        "tag": "c10",
+        "timestampMs": 109877
+      },
+      {
+        "tag": "c12",
+        "timestampMs": 110035
+      },
+      {
+        "tag": "c11",
+        "timestampMs": 110328
+      }
+    ]
+  }
+]

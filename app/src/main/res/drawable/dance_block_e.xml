@@ -1,0 +1,28 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true"
+    android:exitFadeDuration="100">
+
+    <!-- Entrada: pasos rápidos para marcar ritmo -->
+    <item android:drawable="@drawable/jumpleft" android:duration="100" />
+    <item android:drawable="@drawable/jumpright" android:duration="100" />
+    <item android:drawable="@drawable/jumpleft" android:duration="120" />
+    <item android:drawable="@drawable/jumpright" android:duration="120" />
+
+    <!-- Movimientos centrales: más marcados -->
+    <item android:drawable="@drawable/dancemov1" android:duration="200" />
+    <item android:drawable="@drawable/dancemov2" android:duration="200" />
+    <item android:drawable="@drawable/dancemov3" android:duration="250" />
+    <item android:drawable="@drawable/dancemov1" android:duration="200" />
+
+    <!-- Intermedio: combina salto y brazo -->
+    <item android:drawable="@drawable/jumpleft" android:duration="120" />
+    <item android:drawable="@drawable/dancemov2" android:duration="180" />
+    <item android:drawable="@drawable/jumpright" android:duration="120" />
+    <item android:drawable="@drawable/dancemov3" android:duration="200" />
+
+    <!-- Cierre del loop: más rápido -->
+    <item android:drawable="@drawable/jumpleft" android:duration="100" />
+    <item android:drawable="@drawable/jumpright" android:duration="100" />
+    <item android:drawable="@drawable/dancemov1" android:duration="180" />
+
+</animation-list>

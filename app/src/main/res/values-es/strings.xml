@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Melody Tiles High Night</string>
+
+    <string name="title">Melody Tiles High Night</string>
+    <string name="Level">Nivel</string>
+    <string name="score">Puntaje</string>
+    <string name="time">Tiempo</string>
+    <string name="Lives">Vidas</string>
+    <string name="credits_song">Créditos</string>
+    <string name="instructions">Presiona las baldosas en el orden correcto para descubrir la melodía.</string>
+    <string name="credits">Juego creado por HighScoreC.</string>
+    <string name="premium">Toca aquí para quitar los anuncios, obtener más niveles y vidas ilimitadas</string>
+    <string name="premiumTitle">Acceso Premium para Siempre</string>
+    <string name="premiumBenefitl">Sin más anuncios</string>
+    <string name="premiumBenefit2">Vidas ilimitadas</string>
+    <string name="premiumBenefit3">Conserva tu nivel alcanzado</string>
+    <string name="pay">SOLO PAGA 1$</string>
+    <string name="you_win">¡Ganaste!</string>
+    <string name="song_levels">🧩 Niveles: %1$d / %2$d</string>
+    <string name="song_score">🎯 Puntaje: %1$d</string>
+    <string name="locked_message">Bloqueado - Completa la canción anterior para desbloquear</string>
+
+    <string name="tutorial_hint">
+    💡 Usa el botón de reproducir para escuchar cómo debe sonar la canción — ¡pero solo puedes usarlo 3 veces!
+</string>
+
+    <string name="tutorial_instructions">
+    👆 ¡Descubre el orden correcto de las notas!\n\n
+    Cada cuadrado contiene un fragmento de la canción. Tócalos en la secuencia correcta para reproducir la melodía completa y resolver el rompecabezas.
+</string>
+
+    <string name="share_message">🎵 ¡Conseguí %1$d puntos en Melody Tiles! ¿Podés superarme?</string>
+    <string name="share_title">Compartir con…</string>
+
+    <string name="new_high_score">🎉 ¡Nuevo récord!</string>
+    <string name="final_score_text">Puntaje: %1$d\nMejor Puntaje: %2$d</string>
+    <string name="you_win_message">¡Ganaste!</string>
+    <string name="game_over">Fin del juego</string>
+    <string name="limit_reached">Límite alcanzado</string>
+    <string name="score_0">Puntaje: 0</string>
+
+    <string name="share_score">Compartir Puntaje</string>
+    <string name="try_again">Intentar de Nuevo</string>
+    <string name="return_to_menu">Volver al Menú</string>
+    <string name="play">JUGAR</string>
+    <string name="unknown_credits" />
+
+    <string name="unlock_message">¡Desbloquea esta canción completando los niveles anteriores!</string>
+
+    <string name="tutorial_hint_2">
+    🔓 ¡Nuevas mecánicas desbloqueadas!
+</string>
+
+    <string name="tutorial_description_2">
+    🧠 ¡Cada vez que subas de nivel, se desbloquearán nuevos sonidos!\nVerás un destello verde y deberás repetir la secuencia actualizada.
+</string>
+
+    <string name="tutorial_continue_button">
+    ¡Siguiente!
+</string>
+
+    <string name="cr_ditos_de_la_canci_n">🎵 Créditos de la canción</string>
+
+    <string name="admob_banner_id">ca-app-pub-5783562368200006/3893196284</string>
+
+
+</resources>

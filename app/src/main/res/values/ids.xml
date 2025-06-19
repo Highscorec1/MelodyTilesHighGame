@@ -1,0 +1,7 @@
+<!-- res/values/ids.xml -->
+<resources>
+    <item name="animating_tag" type="id" />
+
+    <item name="neon_animator_tag" type="id"/>
+
+</resources>

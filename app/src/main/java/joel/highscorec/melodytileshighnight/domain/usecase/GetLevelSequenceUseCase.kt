@@ -2,8 +2,18 @@ package joel.highscorec.melodytileshighnight.domain.usecase
 
 import joel.highscorec.melodytileshighnight.domain.repository.LevelRepository
 
-class GetLevelSequenceUseCase(private val levelRepository: LevelRepository) {
-    fun invoke(level: Int): List<String>? {
-        return levelRepository.getLevelSequence(level)
+class GetLevelSequenceUseCase(
+    private val repository: LevelRepository
+) {
+    operator fun invoke(level: Int): List<String>? {
+        return repository.getLevelSequence(level)
+    }
+
+    fun getAllLevelsForSong(songId: String): Map<Int, List<String>> {
+        return repository.getSequencesForSong(songId)
+    }
+
+    fun getLevelSequenceForSong(songId: String, level: Int): List<String>? {
+        return repository.getSequencesForSong(songId)[level]
     }
 }

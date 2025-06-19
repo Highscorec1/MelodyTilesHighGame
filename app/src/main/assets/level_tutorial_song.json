@@ -1,0 +1,249 @@
+[
+    {
+        "songId": "tutorial_song",
+        "animationDurationMs": 1000,
+        "notes": [
+
+            {
+                "tag": "c00",
+                "timestampMs": 2000
+            },
+            {
+                "tag": "c00",
+                "timestampMs": 3367
+            },
+            {
+                "tag": "c10",
+                "timestampMs": 3367
+            },
+            {
+                "tag": "c20",
+                "timestampMs": 4652
+            },
+            {
+                "tag": "c01",
+                "timestampMs": 6001
+            },
+            {
+                "tag": "c11",
+                "timestampMs": 7233
+            },
+            {
+                "tag": "c21",
+                "timestampMs": 8601
+            },
+            {
+                "tag": "c02",
+                "timestampMs": 9453
+            },
+            {
+                "tag": "c12",
+                "timestampMs": 10420
+            },
+            {
+                "tag": "c22",
+                "timestampMs": 11052
+            },
+            {
+                "tag": "c00",
+                "timestampMs": 11703
+            },
+            {
+                "tag": "c10",
+                "timestampMs": 12118
+            },
+            {
+                "tag": "c20",
+                "timestampMs": 12453
+            },
+            {
+                "tag": "c01",
+                "timestampMs": 12761
+            },
+            {
+                "tag": "c11",
+                "timestampMs": 13169
+            },
+            {
+                "tag": "c21",
+                "timestampMs": 13503
+            },
+            {
+                "tag": "c02",
+                "timestampMs": 13837
+            },
+            {
+                "tag": "c12",
+                "timestampMs": 14253
+            },
+            {
+                "tag": "c22",
+                "timestampMs": 14546
+            },
+            {
+                "tag": "c21",
+                "timestampMs": 14905
+            },
+            {
+                "tag": "c20",
+                "timestampMs": 15271
+            },
+            {
+                "tag": "c10",
+                "timestampMs": 15588
+            },
+            {
+                "tag": "c00",
+                "timestampMs": 15938
+            },
+            {
+                "tag": "c01",
+                "timestampMs": 16271
+            },
+            {
+                "tag": "c02",
+                "timestampMs": 16623
+            },
+            {
+                "tag": "c12",
+                "timestampMs": 16970
+            },
+            {
+                "tag": "c22",
+                "timestampMs": 17281
+            },
+            {
+                "tag": "c20",
+                "timestampMs": 18661
+            },
+            {
+                "tag": "c00",
+                "timestampMs": 20095
+            },
+            {
+                "tag": "c02",
+                "timestampMs": 21481
+            },
+            {
+                "tag": "c11",
+                "timestampMs": 24148
+            },
+            {
+                "tag": "c12",
+                "timestampMs": 26902
+            },
+            {
+                "tag": "c10",
+                "timestampMs": 29724
+            },
+            {
+                "tag": "c21",
+                "timestampMs": 31171
+            },
+            {
+                "tag": "c01",
+                "timestampMs": 32406
+            },
+            {
+                "tag": "c11",
+                "timestampMs": 33875
+            },
+            {
+                "tag": "c21",
+                "timestampMs": 34161
+            },
+            {
+                "tag": "c22",
+                "timestampMs": 34538
+            },
+            {
+                "tag": "c12",
+                "timestampMs": 34853
+            },
+            {
+                "tag": "c02",
+                "timestampMs": 35222
+            },
+            {
+                "tag": "c01",
+                "timestampMs": 35572
+            },
+            {
+                "tag": "c00",
+                "timestampMs": 35956
+            },
+            {
+                "tag": "c10",
+                "timestampMs": 36265
+            },
+            {
+                "tag": "c20",
+                "timestampMs": 36598
+            },
+            {
+                "tag": "c21",
+                "timestampMs": 36956
+            },
+            {
+                "tag": "c22",
+                "timestampMs": 37290
+            },
+            {
+                "tag": "c12",
+                "timestampMs": 37597
+            },
+            {
+                "tag": "c02",
+                "timestampMs": 37925
+            },
+            {
+                "tag": "c01",
+                "timestampMs": 38310
+            },
+            {
+                "tag": "c00",
+                "timestampMs": 38692
+            },
+            {
+                "tag": "c10",
+                "timestampMs": 39017
+            },
+            {
+                "tag": "c20",
+                "timestampMs": 39410
+            },
+            {
+                "tag": "c21",
+                "timestampMs": 39693
+            },
+            {
+                "tag": "c22",
+                "timestampMs": 40042
+            },
+            {
+                "tag": "c12",
+                "timestampMs": 40367
+            },
+            {
+                "tag": "c02",
+                "timestampMs": 40759
+            },
+            {
+                "tag": "c01",
+                "timestampMs": 41111
+            },
+            {
+                "tag": "c00",
+                "timestampMs": 41436
+            },
+            {
+                "tag": "c10",
+                "timestampMs": 41760
+            },
+            {
+                "tag": "c20",
+                "timestampMs": 42119
+            }
+        ]
+    }
+]

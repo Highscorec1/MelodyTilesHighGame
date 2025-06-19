@@ -1,0 +1,19 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true"
+    android:exitFadeDuration="200">
+
+    <item android:drawable="@drawable/jumpleft" android:duration="140" />
+    <item android:drawable="@drawable/jumpright" android:duration="260" />
+    <item android:drawable="@drawable/jumpleft" android:duration="140" />
+    <item android:drawable="@drawable/jumpright" android:duration="180" />
+
+    <item android:drawable="@drawable/dancemov1" android:duration="220" />
+    <item android:drawable="@drawable/dancemov3" android:duration="350" />
+    <item android:drawable="@drawable/jumpleft" android:duration="130" />
+    <item android:drawable="@drawable/jumpright" android:duration="130" />
+
+    <item android:drawable="@drawable/jumpleft" android:duration="140" />
+    <item android:drawable="@drawable/jumpright" android:duration="260" />
+    <item android:drawable="@drawable/jumpleft" android:duration="140" />
+    <item android:drawable="@drawable/jumpright" android:duration="180" />
+</animation-list>

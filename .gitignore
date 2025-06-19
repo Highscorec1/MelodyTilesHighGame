@@ -1,15 +1,90 @@
+# === Android Studio & IntelliJ ===
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+.idea/
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# === Gradle ===
+.gradle/
+build/
+.externalNativeBuild/
+.cxx/
 local.properties
+*.log
+
+# === Firebase / Google Services ===
+google-services.json
+crashlytics-build.properties
+
+# === NDK / Native Build ===
+obj/
+
+# === Auto-generated Directories ===
+bin/
+gen/
+captures/
+output/
+coverage/
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+desktop.ini
+
+# === APK / Compiled output ===
+*.apk
+*.ap_
+*.dex
+*.so
+*.class
+*.jar
+*.keystore
+*.jks
+*.aab
+app/release/
+
+# === Backup / temp files ===
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+*.orig
+
+# === Log files ===
+*.log
+
+# === Miscellaneous ===
+.env
+.env.*
+.mtk/
+.recommenders/
+.vscode/
+*.idea/
+*.ipr
+*.iws
+*.hprof
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite
+*.lock
+*.DS_Store
+
+# === Test / Lint / Reports ===
+lint/reports/
+lint/intermediates/
+reports/
+test-results/
+test-outputs/
+app/src/main/res/values/ads_config.xml
