@@ -22,7 +22,7 @@
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-5783562368200006~2535286112" />
+            android:value="@string/admob_app_id" />
 
         <activity
             android:name=".ui.songlistrecyclerview.RecyclerViewActivity"

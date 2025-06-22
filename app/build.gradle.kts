@@ -1,6 +1,13 @@
+import java.util.Properties
+import java.io.FileInputStream
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+}
+
+val localProperties = Properties().apply {
+    load(FileInputStream(rootProject.file("local.properties")))
 }
 
 android {
@@ -15,6 +22,10 @@ android {
         versionName = "2.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        // Inyección de claves desde local.properties
+        resValue("string", "admob_banner_id", localProperties["ADMOB_BANNER_ID"] as String)
+        resValue("string", "admob_app_id", localProperties["ADMOB_APP_ID"] as String)
     }
 
     buildTypes {

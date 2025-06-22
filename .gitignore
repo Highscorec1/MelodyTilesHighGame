@@ -14,34 +14,14 @@ build/
 .externalNativeBuild/
 .cxx/
 local.properties
-*.log
 
 # === Firebase / Google Services ===
 google-services.json
 crashlytics-build.properties
 
-# === NDK / Native Build ===
-obj/
-
-# === Auto-generated Directories ===
-bin/
-gen/
-captures/
-output/
-coverage/
-
-# === OS-specific ===
-.DS_Store
-Thumbs.db
-ehthumbs.db
-Icon?
-._*
-.Spotlight-V100
-.Trashes
-desktop.ini
-
 # === APK / Compiled output ===
 *.apk
+*.aab
 *.ap_
 *.dex
 *.so
@@ -49,10 +29,14 @@ desktop.ini
 *.jar
 *.keystore
 *.jks
-*.aab
 app/release/
 
-# === Backup / temp files ===
+# === Log files ===
+*.log
+
+# === Archivos sensibles y configuración local ===
+.env
+.env.*
 *.tmp
 *.bak
 *.swp
@@ -60,31 +44,9 @@ app/release/
 *~
 *.orig
 
-# === Log files ===
-*.log
-
-# === Miscellaneous ===
-.env
-.env.*
-.mtk/
-.recommenders/
-.vscode/
-*.idea/
-*.ipr
-*.iws
-*.hprof
-*.pyc
-*.pyo
-*.pyd
-*.db
-*.sqlite
-*.lock
-*.DS_Store
-
-# === Test / Lint / Reports ===
-lint/reports/
-lint/intermediates/
-reports/
-test-results/
-test-outputs/
-app/src/main/res/values/ads_config.xml
+# === Otras rutas ya cubiertas ===
+bin/
+gen/
+captures/
+output/
+obj/

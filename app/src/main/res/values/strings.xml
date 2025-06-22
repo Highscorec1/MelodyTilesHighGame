@@ -62,9 +62,6 @@
 </string>
     <string name="cr_ditos_de_la_canci_n">🎵 Song Credits</string>
 
-    <!-- res/values/strings.xml -->
-    <string name="admob_banner_id">ca-app-pub-5783562368200006/3893196284</string>
-
 
 
 </resources>
